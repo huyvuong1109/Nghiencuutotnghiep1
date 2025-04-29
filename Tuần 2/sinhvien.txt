@@ -1,0 +1,4 @@
+1, Tuan, A1,Thai Nguyen
+2, Minh, A2,Thai Nguyen
+3, Tuyen, A1,Ha Noi
+4, Nhung, A3,Nam Dinh
