@@ -10,9 +10,9 @@ from datetime import datetime  # 🕒 thêm timestamp
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Đường dẫn tệp và thư mục
-input_pdf = r"C:/Users/Admin/OneDrive/Documents/GitHub/GR1/output/pages/page_8.pdf"
-output_dir = r"C:/Users/Admin/OneDrive/Documents/GitHub/GR1/output_images"
-result_dir = r"C:/Users/Admin/OneDrive/Documents/GitHub/GR1/output"  # 📁 thư mục chứa Excel
+input_pdf = r"D:/x1g8/Nghiencuutotnghiep1/Tuan6/output/pages/page_8.pdf"
+output_dir = r"D:/x1g8/Nghiencuutotnghiep1/Tuan6/output_images"
+result_dir = r"D:/x1g8/Nghiencuutotnghiep1/Tuan6/output"  # 📁 thư mục chứa Excel
 
 # Đảm bảo thư mục tồn tại
 os.makedirs(output_dir, exist_ok=True)
@@ -23,7 +23,7 @@ timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 excel_output = os.path.join(result_dir, f"result_{timestamp}.xlsx")
 
 # Bước 1: Chuyển PDF thành ảnh
-images = convert_from_path(input_pdf, poppler_path=r"D:\Downloads\poppler-24.08.0\Library\bin")  # ⚠️ sửa nếu cần
+images = convert_from_path(input_pdf, poppler_path=r"D:\Download\poppler-24.08.0\Library\bin")  # ⚠️ sửa nếu cần
 
 # Bước 2: Tạo workbook Excel
 wb = openpyxl.Workbook()
