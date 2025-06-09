@@ -7,7 +7,7 @@ from datetime import datetime
 # ============================
 # CẤU HÌNH ĐƯỜNG DẪN
 # ============================
-image_path = "D:/x1g8/Nghiencuutotnghiep1/Tuan6/output_images/page_13.png"  # Thay bằng đường dẫn ảnh của bạn
+image_path = "D:/x1g8/Nghiencuutotnghiep1/Tuan6/output_images/page_10.png"  # Thay bằng đường dẫn ảnh của bạn
 output_dir = "D:/x1g8/Nghiencuutotnghiep1/Tuan6/output"
 os.makedirs(output_dir, exist_ok=True)
 
