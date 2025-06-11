@@ -23,7 +23,7 @@ def download_vietstock_pdf(download_dir, stock_code, report_name):
     options.add_argument("--disable-gpu")
 
     # Đường dẫn tới ChromeDriver
-    service = Service(r"D:/Downloads/chromedriver-win64/chromedriver.exe")
+    service = Service(r"D:/Download/chromedriver-win64/chromedriver.exe")
 
     # Khởi tạo trình duyệt
     driver = webdriver.Chrome(service=service, options=options)

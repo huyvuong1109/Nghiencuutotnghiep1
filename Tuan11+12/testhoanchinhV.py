@@ -38,7 +38,8 @@ for i, img in enumerate(images):
 # OCR TỪNG ẢNH → BẢNG
 # ============================
 def extract_table_from_image(image_path, column_gap_threshold=50):
-    df = pytesseract.image_to_data(Image.open(image_path), lang="vie", config="--psm 6", output_type=pytesseract.Output.DATAFRAME)
+    df = pytesseract.image_to_data(Image.open(image_path), lang="vie", 
+                                config="--psm 6", output_type=pytesseract.Output.DATAFRAME)
     df = df[df.text.notnull()]
     df = df[df.text.str.strip() != ""]
 
