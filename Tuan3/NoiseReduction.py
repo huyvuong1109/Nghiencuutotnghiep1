@@ -33,6 +33,7 @@ gray_image = grayscale(img)
 # display("Tuan3/temp/gray.jpg")
 
 thresh,im_bw = cv2.threshold(gray_image, 200, 230, cv2.THRESH_BINARY)
+
 cv2.imwrite("Tuan3/temp/bw_image.jpg", im_bw)
 #display("Tuan3/temp/bw_image.jpg")
 def noise_removal(image):
