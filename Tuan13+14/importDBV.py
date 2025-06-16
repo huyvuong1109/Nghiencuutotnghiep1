@@ -4,14 +4,6 @@ import pymysql
 # Đọc file CSV
 df = pd.read_csv("D:/Download/du_lieu_hoan_chinh123.csv", encoding="utf-8")
 
-# Kết nối tới MySQL
-conn = pymysql.connect(
-    host='localhost',
-    user='huyvuong',        # 👉 thay bằng user MySQL
-    password='vuongquochuy1109@@',# 👉 thay bằng mật khẩu
-    database='baocaotc',# 👉 thay bằng tên database
-    charset='utf8mb4'
-)
 
 cursor = conn.cursor()
 
