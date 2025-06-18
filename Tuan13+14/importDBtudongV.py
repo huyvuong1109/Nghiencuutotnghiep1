@@ -29,14 +29,7 @@ def clean_number(x):
 df['so_lieu_31_3_2025'] = df['so_lieu_31_3_2025'].apply(clean_number)
 df['so_lieu_1_1_2025'] = df['so_lieu_1_1_2025'].apply(clean_number)
 
-# Kết nối MySQL
-conn = pymysql.connect(
-    host='localhost',
-    user='huyvuong',
-    password='vuongquochuy1109@@',
-    database='baocaotc',
-    charset='utf8mb4'
-)
+
 cursor = conn.cursor()
 
 # Tạo bảng nếu chưa có
