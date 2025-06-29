@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # ===  Đọc file CSV gốc bị lỗi OCR ===
-input_path = "D:/x1g8/Nghiencuutotnghiep1/Tuan6/output/du_lieu_sach.csv"  # Đường dẫn tới file CSV gốc
+input_path = "D:/x1g8/Nghiencuutotnghiep1/Tuan6/output/parsed_table_20250629_110924____1.csv"  # Đường dẫn tới file CSV gốc
 with open(input_path, "r", encoding="utf-8") as f:
     raw_lines = f.readlines()
 

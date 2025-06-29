@@ -4,7 +4,14 @@ import pymysql
 # Đọc file CSV
 df = pd.read_csv("D:/Download/du_lieu_hoan_chinh123.csv", encoding="utf-8")
 
-
+# Kết nối MySQL
+conn = pymysql.connect(
+    host='localhost',
+    user='huyvuong',
+    password='vuongquochuy1109@@',
+    database='baocaotc',
+    charset='utf8mb4'
+)
 cursor = conn.cursor()
 
 # Tên bảng phù hợp với CREATE TABLE bạn đã tạo trước đó

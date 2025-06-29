@@ -12,12 +12,7 @@ for col in df.columns[1:]:
     df[col] = pd.to_numeric(df[col], errors='coerce')  # NaN nếu lỗi
 
 # Thông tin kết nối MySQL – SỬA LẠI THEO CẤU HÌNH CỦA BẠN
-username = "huyvuong"
-password = "vuongquochuy1109@@"  # 🔐 Thay bằng mật khẩu thực tế
-host = "localhost"
-port = 3306
-database = "baocaotc"
-table_name = "baocao_taichinh"
+
 
 # Tạo kết nối
 engine = create_engine(f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}")
