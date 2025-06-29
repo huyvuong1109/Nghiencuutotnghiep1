@@ -31,11 +31,7 @@ df['so_lieu_1_1_2025'] = df['so_lieu_1_1_2025'].apply(clean_number)
 
 # Kết nối MySQL
 conn = pymysql.connect(
-    host='localhost',
-    user='huyvuong',
-    password='vuongquochuy1109@@',
-    database='baocaotc',
-    charset='utf8mb4'
+   
 )
 cursor = conn.cursor()
 

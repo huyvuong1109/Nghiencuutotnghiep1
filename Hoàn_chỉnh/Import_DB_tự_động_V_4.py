@@ -10,10 +10,7 @@ QUARTER = 1
 YEAR = 2025
 TABLE_NAME = f"bctc_{TICKER.lower()}_q{QUARTER}_{YEAR}"
 
-DB_HOST = 'localhost'
-DB_USER = 'huyvuong'
-DB_PASS = 'vuongquochuy1109@@'
-DB_NAME = 'baocaotc'
+
 
 # ============================
 # XỬ LÝ DỮ LIỆU VÀ IMPORT
