@@ -5,7 +5,7 @@ import os
 # CẤU HÌNH
 # ============================
 # Đường dẫn file CSV đầu vào
-input_csv_path = 'D:/Download/Báo_cáo_tài_chính_Công_ty_mẹ_quý_1_năm_2025_filtered_20250629_130854.csv'
+input_csv_path = 'D:/x1g8/Nghiencuutotnghiep1/Tuan6/output/Báo_cáo_tài_chính_Công_ty_mẹ_quý_1_năm_2025_filtered_20250630_085252.csv'
 
 # Tên file CSV đầu ra (với logic xử lý thông minh hơn)
 output_csv_path = 'cleaned_BCTC_for_db_v3_smart.csv'

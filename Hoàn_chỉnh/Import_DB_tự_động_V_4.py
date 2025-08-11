@@ -4,13 +4,16 @@ import pymysql
 # ============================
 # CẤU HÌNH
 # ============================
-INPUT_CSV_PATH = 'cleaned_BCTC_for_db_v3_smart.csv'
+INPUT_CSV_PATH = 'cleaned_BCTC_for_db_MẪU.csv'
 TICKER = 'VIC'
 QUARTER = 1
 YEAR = 2025
 TABLE_NAME = f"bctc_{TICKER.lower()}_q{QUARTER}_{YEAR}"
 
-
+DB_HOST = 'localhost'
+DB_USER = 'huyvuong'
+DB_PASS = 'vuongquochuy1109@@'
+DB_NAME = 'baocaotc'
 
 # ============================
 # XỬ LÝ DỮ LIỆU VÀ IMPORT

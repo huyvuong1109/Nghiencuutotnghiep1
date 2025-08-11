@@ -73,8 +73,8 @@ def download_vietstock_pdf(download_dir, stock_code, report_name):
 
 # Cấu hình và thông tin người dùng
 download_dir = "./downloads"
-stock_code = "VIC"
-report_name = "Báo cáo tài chính Công ty mẹ quý 1 năm 2025"
+stock_code = "VNM"
+report_name = "Báo cáo tài chính Công ty mẹ quý 4 năm 2024"
 
 # Tạo thư mục nếu chưa tồn tại
 os.makedirs(download_dir, exist_ok=True)

@@ -9,10 +9,10 @@ import glob
 # CẤU HÌNH
 # ============================
 # Đường dẫn file PDF
-pdf_path = "D:/x1g8/Nghiencuutotnghiep1/downloads/VIC/Báo_cáo_tài_chính_Công_ty_mẹ_quý_1_năm_2025.pdf"
+pdf_path = "D:/x1g8/Nghiencuutotnghiep1/downloads/FPT/Báo_cáo_tài_chính_Công_ty_mẹ_quý_1_năm_2025.pdf"
 
 # Thư mục chứa ảnh đầu ra
-image_output_dir = "D:/x1g8/Nghiencuutotnghiep1/Tuan6/output_images/VIC"
+image_output_dir = "D:/x1g8/Nghiencuutotnghiep1/Tuan6/output_images/FPT"
 os.makedirs(image_output_dir, exist_ok=True)
 
 # Thư mục chứa file CSV đầu ra
@@ -23,7 +23,7 @@ os.makedirs(result_dir, exist_ok=True)
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # CHỌN TRANG CẦN XỬ LÝ
-pages_to_process = [6,7,8,10,11] # Để rỗng để xử lý tất cả các trang
+pages_to_process = [5,6,7,8,9,10] # Để rỗng để xử lý tất cả các trang
 
 # ============================
 # CHUYỂN PDF → ẢNH
